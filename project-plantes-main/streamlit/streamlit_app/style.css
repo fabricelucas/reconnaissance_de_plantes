@@ -1,0 +1,104 @@
+/* Styles pour le titre principal (st.title) */
+h1 {
+  color: #8ACBC0 !important;
+}
+
+/* Styles pour les headers (st.header) */
+h2 {
+  color: #a9cde2 !important;
+}
+
+/* Styles pour les headers (st.subheader) */
+h3 {
+  color: #b697d5 !important;
+}
+
+.sidebar-section h3 {
+  color: #000000 !important;
+  font-size: 1.1em;
+}
+
+code {
+  color: #8acbc0;
+}
+
+#MainMenu {
+  display: none;
+}
+
+div[data-testid="stDecoration"] {
+  display: none;
+}
+
+footer {
+  display: none;
+}
+
+/* Radio buttons */
+
+.st-cc {
+  color: black;
+  font-weight: 500;
+}
+
+/* Sidebar */
+
+section[data-testid="stSidebar"] > div {
+  background-color: #8acbc0;
+  padding-top: 2rem;
+  padding-left: 1.5rem;
+}
+
+section[data-testid="stSidebar"] button[title="View fullscreen"] {
+  display: none;
+}
+
+section[data-testid="stSidebar"] button[kind="icon"] {
+  display: none;
+}
+
+section[data-testid="stSidebar"] .st-bk {
+  background-color: #347d7b;
+}
+
+section[data-testid="stSidebar"] .st-c0 {
+  background-color: transparent;
+}
+
+section[data-testid="stSidebar"] hr {
+  margin-top: 30px !important;
+  border-color: #347d7b !important;
+  width: 250px !important;
+}
+
+section[data-testid="stSidebar"] h2 {
+  color: white;
+}
+
+/* Images */
+
+button[title="View fullscreen"] {
+  display: none;
+}
+
+
+/* Ligne titre */
+
+hr {
+  width: 700px !important;
+  border-width: 3px !important;
+  border-color: #347d7b !important;
+  margin-top: 0px !important;
+}
+
+/* First Page */
+
+section[tabindex="0"] .block-container {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+/* Masquer l'en-tête de Streamlit */
+.stAppHeader {
+  display: none;
+}
