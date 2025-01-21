@@ -4,7 +4,7 @@
 
 Ce dépôt contient le code de notre projet "Reconnaissance de plantes", développé dans le cadre de notre [formation Data Scientist](https://datascientest.com/formation-data-scientist) chez [DataScientest](https://datascientest.com/).
 
-**Le projet vise à développer une application de reconnaissance de plantes permettant d'identifier une plante sur une image et de fournir des informations sur son espèce. Il s'adresse aux particuliers, pour une aide à l'identification des plantes dans leur jardin, ainsi qu'aux professionnels de l'agriculture pour une gestion optimisée des cultures. Le modèle utilise des réseaux de neurones convolutifs pour la classification des espèces, en se basant sur deux jeux de données principaux. La capacité à diagnostiquer l'état de santé des plantes et détecter des maladies est prévue pour une seconde phase du projet.**
+**Le projet vise à développer une application de reconnaissance de plantes permettant d'identifier une plante sur une image et de fournir des informations sur son espèce. Il s'adresse aux particuliers, pour une aide à l'identification des plantes dans leur jardin, ainsi qu'aux professionnels de l'agriculture pour une gestion optimisée des cultures. Le modèle utilise des réseaux de neurones convolutifs pour la classification des espèces, en se basant sur deux jeux de données principaux de kaggle. La capacité à diagnostiquer l'état de santé des plantes et détecter des maladies est prévue pour une seconde phase du projet.**
 
 Ce projet a été développé par l'équipe suivante :
 
