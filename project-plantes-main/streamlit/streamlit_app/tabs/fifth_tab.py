@@ -17,7 +17,7 @@ def run():
     """)
 
     st.markdown("### Visualisations Grad-CAM - Différences entre les modèles")
-    st.image("streamlit_app/assets/model_comparison_0.png")
-    st.image("streamlit_app/assets/model_comparison_1.png")
-    st.image("streamlit_app/assets/model_comparison_2.png")
-    st.image("streamlit_app/assets/model_comparison_3.png")
+    st.image("streamlit/streamlit_app/assets/model_comparison_0.png")
+    st.image("streamlit/streamlit_app/assets/model_comparison_1.png")
+    st.image("streamlit/streamlit_app/assets/model_comparison_2.png")
+    st.image("streamlit/streamlit_app/assets/model_comparison_3.png")

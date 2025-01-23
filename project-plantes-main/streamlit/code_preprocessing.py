@@ -5,7 +5,7 @@ import cv2
 import matplotlib.pyplot as plt
 
 # Chargement du fichier 'dataframe_plant_disease_id.csv' dans un DataFrame df et visualisation des données
-df = pd.read_csv('data\dataframe_plant_disease_id.csv')
+df = pd.read_csv(r'C:\Users\Angel\Documents\GitHub\oct24_bds_reconnaissance_de_plantes\project-plantes-main\data\dataframe_plant_disease_id.csv')
 
 ### Définition des fonctions ### 
 

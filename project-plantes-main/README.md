@@ -28,7 +28,7 @@ Pour lancer l'application (faites attention aux chemins des fichiers dans l'appl
 conda create --name projet_plantes_streamlit python=3.9
 conda activate projet_plantes_streamlit
 pip install -r requirements.txt
-streamlit run app.py
+streamlit run streamlit/app.py
 ```
 
 L'application devrait ensuite être disponible à l'adresse suivante : [localhost:8501](http://localhost:8501).

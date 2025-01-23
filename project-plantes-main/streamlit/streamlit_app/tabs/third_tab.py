@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 from code_preprocessing import import_image, resize_image, create_green_mask
+import os 
 
 title = "Étape 2 - Pre-processing et feature engineering"
 sidebar_name = "Pre-processing"
@@ -19,7 +20,7 @@ def run():
     - Equilibrage des classes
     """)
     # Chargement des données
-    df_equilibre = pd.read_csv('data\dataframe_up_mask.csv')
+    df_equilibre = pd.read_csv(r'data_masked\dataframe_up_mask.csv')
 
     # Visualisation de la distribution des espèces de plantes au niveau du DataFrame
     especes_fig = px.histogram(df_equilibre, x='espèce', title="Distribution des espèces de plantes", color_discrete_sequence=['#347d7b'])
@@ -37,9 +38,8 @@ def run():
     """)
 
     # Chemins prédéfinis vers une image de chaque dataset
-    semis_image_path = r"data/semis/Cleavers/1.png"
-    plantdisease_image_path = r"data/plantdisease/Apple___healthy/0a553fc0-fc2c-4598-baba-3bc10191447c___RS_HL 5969_final_masked.jpg"
-
+    semis_image_path = "streamlit/streamlit_app/assets/datasemisCleavers1.png"
+    plantdisease_image_path = "streamlit/streamlit_app/assets/dataplantdiseaseApple___healthy0a553fc0-fc2c-4598-baba-3bc10191447c___RS_HL 5969_final_masked.jpg"
 
     # Charger et afficher une image de 'semis'
     st.write("*Traitement d'une image du dataset 'semis'*")
@@ -72,6 +72,8 @@ def run():
     st.image(img_resized_pd, caption="Image redimensionnée - Apple (healthy)")
     resized_height, resized_width = img_resized_pd.shape[:2]
     st.write(f"Dimensions de l'image redimensionnée : {resized_width} x {resized_height}")
+
+    st.write("   ")
 
 
 

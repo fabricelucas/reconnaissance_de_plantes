@@ -24,11 +24,11 @@ def run():
     data.set_index("Jeu de données", inplace=True)
     st.dataframe(data)
 
-    st.image("streamlit_app/assets/datasets.png")
+    st.image("streamlit/streamlit_app/assets/datasets.png")
 
 
     # Chargement des données
-    df = pd.read_csv('data\dataframe_plant_disease_id.csv')
+    df = pd.read_csv(r'data\dataframe_plant_disease_id.csv')
 
     # Affichage du DataFrame et de ses caractéristiques
     st.subheader("Aperçu des données")
@@ -108,9 +108,11 @@ def run():
     # Image RGB 
     with col1:
         st.write("Exemple d'une image RGB (Cleaver - DataSet V2 Plant Seedlings) :")
-        st.image("streamlit_app/assets/img_rgb.png", width=200)
+        st.image("streamlit/streamlit_app/assets/img_rgb.png", width=200)
 
     # Image segmentée
     with col2:
         st.write("Exemple d'une image segmentée (Framboisier sain - DataSet PlantVillage) :")
-        st.image("streamlit_app/assets/img_seg.jpg", width=200)
+        st.image("streamlit/streamlit_app/assets/img_seg.jpg", width=200)
+    
+    st.write("   ")

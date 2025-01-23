@@ -5,7 +5,7 @@ sidebar_name = "Introduction"
 
 def run():
 
-    st.image("streamlit_app/assets/banner.png")
+    st.image("streamlit/streamlit_app/assets/banner.png")
 
     st.title(title)
 
@@ -31,7 +31,7 @@ def run():
     """)
 
     st.markdown("**Pourquoi ce projet ?**")
-    st.image("streamlit_app/assets/apps_logo.png")
+    st.image("streamlit/streamlit_app/assets/apps_logo.png")
     st.write("""
     Les applications actuelles montrent des limites :
     - Détection des maladies insuffisante.

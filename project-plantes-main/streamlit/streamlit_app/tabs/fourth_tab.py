@@ -16,7 +16,7 @@ def run():
     # Présentation des modèles
     if selected_model == "Random Forest":
         st.subheader("Random Forest")
-        st.image("streamlit_app/assets/architeture_random_forest.png", width=500)
+        st.image("streamlit/streamlit_app/assets/architeture_random_forest.png", width=500)
         st.write("""
         - Modèle simple et intuitif, utilisé comme référence en Machine Learning.
         - Combine plusieurs arbres de décision pour voter sur une classe majoritaire.
@@ -28,7 +28,7 @@ def run():
     else:
         if selected_model == "ResNet50":
             st.subheader("ResNet50")
-            st.image("streamlit_app/assets/architeture_ResNet.png")
+            st.image("streamlit/streamlit_app/assets/architeture_ResNet.png")
             st.write("""
             - CNN avec connexions résiduelles pour faciliter l’entraînement des réseaux profonds.
             - Pré-entraîné sur ImageNet (14M images, 1000 classes).
@@ -36,12 +36,12 @@ def run():
             - Forces : Bonne généralisation, courbes d’apprentissage efficaces.
             - Limitation : Faible performance sur certaines classes comme Black-Grass.
             """)
-            curves_path = "streamlit_app/assets/courbes_ResNet.png"
-            f1_path = "streamlit_app/assets/rapport_ResNet.png"
+            curves_path = "streamlit/streamlit_app/assets/courbes_ResNet.png"
+            f1_path = "streamlit/streamlit_app/assets/rapport_ResNet.png"
 
         elif selected_model == "EfficientNetB3":
             st.subheader("EfficientNetB3")
-            st.image("streamlit_app/assets/architeture_EfficientNet.png")
+            st.image("streamlit/streamlit_app/assets/architeture_EfficientNet.png")
             st.write("""
             - Modèle optimisé pour équilibrer profondeur, largeur, et résolution (Compound scaling).
             - Pré-entraîné sur ImageNet.
@@ -49,24 +49,24 @@ def run():
             - Forces : Excellente performance avec moins de ressources computationnelles.
             - Limitation : Difficultés similaires à ResNet sur des classes spécifiques comme Black-Grass.
             """)
-            curves_path = "streamlit_app/assets/courbes_EfficientNet.png"
-            f1_path = "streamlit_app/assets/rapport_EfficientNet.png"
+            curves_path = "streamlit/streamlit_app/assets/courbes_EfficientNet.png"
+            f1_path = "streamlit/streamlit_app/assets/rapport_EfficientNet.png"
 
         elif selected_model == "MobileNet":
             st.subheader("MobileNet")
-            st.image("streamlit_app/assets/architeture_MobileNet.png")
+            st.image("streamlit/streamlit_app/assets/architeture_MobileNet.png")
             st.write("""
             - Modèle optimisé pour les environnements à ressources limitées.
             - Idéal pour des tâches nécessitant des modèles légers et efficaces.
             - Précision obtenue : **95%**.
             - Forces : Bon compromis entre précision et coût computationnel.
             """)
-            curves_path = "streamlit_app/assets/courbes_MobileNet.png"
-            f1_path = "streamlit_app/assets/rapport_MobileNet.png"
+            curves_path = "streamlit/streamlit_app/assets/courbes_MobileNet.png"
+            f1_path = "streamlit/streamlit_app/assets/rapport_MobileNet.png"
 
         elif selected_model == "From Scratch inspiré par LeNet":
             st.subheader("From Scratch inspiré par LeNet")
-            st.image("streamlit_app/assets/architeture_LeNet.png")
+            st.image("streamlit/streamlit_app/assets/architeture_LeNet.png")
             st.write("""
             - Modèle CNN inspiré de l’architecture LeNet, conçu sans transfert learning.
             - Composé de couches convolutives et de pooling entièrement connectées.
@@ -74,8 +74,8 @@ def run():
             - Forces : Permet de comprendre l’importance des architectures complexes et des données.
             - Limitation : Inférieur aux modèles pré-entraînés, dépend fortement du pré-processing.
             """)
-            curves_path = "streamlit_app/assets/courbes_LeNet.png"
-            f1_path = "streamlit_app/assets/rapport_LeNet.png"
+            curves_path = "streamlit/streamlit_app/assets/courbes_LeNet.png"
+            f1_path = "streamlit/streamlit_app/assets/rapport_LeNet.png"
             
 
         # Affichage courbes ou rapport F1

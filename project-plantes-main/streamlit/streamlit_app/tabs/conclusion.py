@@ -6,7 +6,7 @@ sidebar_name = "Conclusion"
 
 def run():
 
-    st.image("streamlit_app/assets/banner.png")
+    st.image("streamlit/streamlit_app/assets/banner.png")
 
     st.title(title)
 
