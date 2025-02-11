@@ -1,6 +1,6 @@
 """
 
-Fichier config pour l'application Streamlit
+Fichier config pour l'application Streamlit reconnaissance des plantes
 
 """
 
