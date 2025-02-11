@@ -12,7 +12,8 @@ Ce projet a été développé par l'équipe suivante :
 - Angélique LARCHER ([GitHub](https://github.com/angielx) / [LinkedIn](https://www.linkedin.com/in/ang%C3%A9lique-larcher-9664a412b/))
 - Fabrice LUCAS ([GitHub](https://github.com/fabricelucas) / [LinkedIn](https://www.linkedin.com/in/fabrice-lucas-052b3163/))
 
-Vous pouvez consulter et exécuter les [notebooks](./notebooks) dans les dossiers ci-dessous
+Vous pouvez consulter et exécuter les [notebooks](./notebooks) dans les dossiers ci-dessus /project-plantes-main
+/notebook/
 
 Vous devrez installer les dépendances (dans un environnement dédié) :
 
