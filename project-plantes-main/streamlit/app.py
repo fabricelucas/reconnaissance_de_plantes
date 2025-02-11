@@ -8,6 +8,7 @@ st.set_page_config(
     page_icon="https://publithings.com/wp-content/uploads/2021/03/logo_data_scientest.png",
 )
 
+
 with open("streamlit/streamlit_app/style.css", "r") as f:
     style = f.read()
 
